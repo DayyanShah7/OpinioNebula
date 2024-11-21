@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="566.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.Controller">
+   <children>
+      <ImageView fx:id="UserGuideIcon" fitHeight="47.0" fitWidth="52.0" layoutX="215.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/userGuide.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="UserGuidePageLogo" fitHeight="117.0" fitWidth="156.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="UserGuideText" layoutX="274.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Guide">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="UserGuideIntroText" layoutX="132.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discovering the power of OpinioNebula is as easy as it is transformative. To utilize this robust platform for your academic research and survey needs, follow our simple and intuitive process. OpinioNebula empowers you to create surveys, collect data, and gain insights effortlessly. Dive into the world of data-driven academia with OpinioNebula and unlock new possibilities in your research and decision-making." wrappingWidth="380.6748046875">
+         <font>
+            <Font size="21.0" />
+         </font></Text>
+      <Button fx:id="BackButtonOnUserGuide" layoutX="525.0" layoutY="14.0" mnemonicParsing="false" onAction="#BackonUserGuide" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <ImageView fx:id="PhoneIconUserGuide" fitHeight="28.0" fitWidth="37.0" layoutX="132.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/phone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="EmailIconUserGuide" fitHeight="28.0" fitWidth="37.0" layoutX="132.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/email.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="EmailTextUserGuide" layoutX="176.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dayyan@gmail.com">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text fx:id="NumberTextUserGuide" layoutX="176.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+1-987-789-777" />
+   </children>
+</AnchorPane>

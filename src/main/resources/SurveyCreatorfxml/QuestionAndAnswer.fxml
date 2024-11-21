@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="648.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SurveyCreatorPage.QuestionAndAnswerPage">
+   <children>
+      <ImageView fx:id="QuestionAndAnswerLogo" fitHeight="106.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../com/example/advanceprogrammingproject/Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="QuestionAndAnswerIcon" fitHeight="75.0" fitWidth="83.0" layoutX="265.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/QuestionAnswer.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="QnAText" layoutX="39.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Explore and Engage: MCQs Await Your Insights!&quot;">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="NextButton" layoutX="259.0" layoutY="590.0" mnemonicParsing="false" onAction="#Next" style="-fx-background-color: #ffc13b;" text="Next">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="519.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc13b" height="294.0" layoutX="34.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="527.0" />
+      <Label layoutX="134.0" layoutY="201.0" textFill="RED" />
+      <Text fx:id="Q1Text1" layoutX="54.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q) What Improvement would you suggest for enhancing">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font></Text>
+      <Text fx:id="Q1Text2" layoutX="79.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="campus life at Taylor's University?">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font></Text>
+      <TextField fx:id="AnswerTextField" layoutX="79.0" layoutY="361.0" prefHeight="170.0" prefWidth="433.0" style="-fx-background-color: #ffaf3b;" />
+      <Label fx:id="WrongData" layoutX="92.0" layoutY="201.0" textFill="RED" />
+   </children>
+</AnchorPane>

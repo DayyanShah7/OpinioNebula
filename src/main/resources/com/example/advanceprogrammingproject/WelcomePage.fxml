@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.Controller">
+   <children>
+      <Text fx:id="WelcomeText" layoutX="167.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to OpinioNebula">
+         <font>
+            <Font name="Baskerville Old Face" size="33.0" />
+         </font></Text>
+      <ImageView fitHeight="86.0" fitWidth="158.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="WelcomePageLogo" fitHeight="109.0" fitWidth="158.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="UserGuideButton" layoutX="157.0" layoutY="30.0" mnemonicParsing="false" onAction="#ToUserGuide" prefHeight="39.0" prefWidth="209.0" style="-fx-background-color: #FFC324#FFC324;" text="User Guide">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <Button fx:id="AboutUsButton" layoutX="376.0" layoutY="30.0" mnemonicParsing="false" onAction="#ToAboutUs" prefHeight="39.0" prefWidth="201.0" style="-fx-background-color: #FFC324#FFC324;" text="About Us">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <Button fx:id="UserButton" layoutX="277.0" layoutY="334.0" mnemonicParsing="false" onAction="#ToUserLoginPage" prefHeight="39.0" prefWidth="158.0" style="-fx-background-color: #FFC324#FFC324;" text="User">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <Button fx:id="AdminButton" layoutX="277.0" layoutY="247.0" mnemonicParsing="false" onAction="#ToAdminLoginPage" style="-fx-background-color: #FFC324#FFC324;" text="Administrator">
+         <font>
+            <Font name="Rockwell Nova" size="19.0" />
+         </font></Button>
+      <Text fx:id="UserText" layoutX="222.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Satisfaction Survey">
+         <font>
+            <Font name="Baskerville Old Face" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="LoginText" layoutX="285.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Login as:">
+         <font>
+            <Font name="Bookman Old Style" size="20.0" />
+         </font></Text>
+      <Text fx:id="OrText" layoutX="342.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <ImageView fx:id="AdminIcon" fitHeight="52.0" fitWidth="97.0" layoutX="222.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/Admin2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="UserIcon" fitHeight="52.0" fitWidth="46.0" layoutX="225.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/user.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="565.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.AdminDeleteSurveyPage">
+   <children>
+      <AnchorPane layoutX="-3.0" prefHeight="564.0" prefWidth="563.0" style="-fx-background-color: #f5f0e1;">
+         <children>
+            <ImageView fx:id="AdminDeleteSurveyLogo" fitHeight="106.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/opinionebula-yello.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="AdminDeleteSurveyIcon" fitHeight="74.0" fitWidth="67.0" layoutX="239.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../SurveyCreatorfxml/Icons2/delete.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="DeleteSurveyTextOnAdminDeleteSurvey" layoutX="194.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Survey" wrappingWidth="310.8232421875">
+               <font>
+                  <Font name="Bookman Old Style Italic" size="25.0" />
+               </font>
+            </Text>
+            <Button fx:id="BackButtonOnAdminDeleteSurvey" layoutX="470.0" layoutY="17.0" mnemonicParsing="false" onAction="#BackButtonOnAdminDeleteSurvey" style="-fx-background-color: #ffc13b;" text="Back">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <ListView fx:id="MainList" layoutX="90.0" layoutY="250.0" prefHeight="200.0" prefWidth="391.0" style="-fx-background-color: #ffc13b;" />
+            <ListView fx:id="SurveyIDList" layoutX="89.0" layoutY="221.0" prefHeight="29.0" prefWidth="124.0" style="-fx-background-color: #f5ab49;" />
+            <ListView fx:id="SurveyCreatedByList" layoutX="205.0" layoutY="221.0" prefHeight="29.0" prefWidth="144.0" style="-fx-background-color: #f5ab49;" />
+            <Text fx:id="SurveyIDText" layoutX="106.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SurveyID" />
+            <Text fx:id="SurveyCreatedByText" layoutX="201.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Survey Created By" />
+            <Text fx:id="IDValueText" layoutX="126.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="001" />
+            <Text fx:id="ds7Text" layoutX="254.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ds7" />
+            <CheckBox fx:id="DeleteCheckBox" layoutX="487.0" layoutY="258.0" mnemonicParsing="false" />
+            <Button fx:id="DeleteButtonOnAdminDeleteSurvey" layoutX="232.0" layoutY="488.0" mnemonicParsing="false" onAction="#DeleteButtonOnAdminDeleteSurvey" style="-fx-background-color: #ffc13b;" text="Delete">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <ListView fx:id="SurveyTypeList" layoutX="349.0" layoutY="221.0" prefHeight="29.0" prefWidth="132.0" style="-fx-background-color: #f5ab49;" />
+            <Text fx:id="SurveyTypeText" layoutX="367.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Survey Type" />
+            <Text fx:id="QnAText" layoutX="378.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QnA" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

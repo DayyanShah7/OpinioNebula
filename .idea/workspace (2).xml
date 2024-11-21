@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c56a282c-fe0d-4b27-9051-523cce40824d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2XWFMcXo1LuKNlHrwNnxA2LXrve" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dayya/OneDrive/Documents/Group Project[1]/Group Project&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dayya\IdeaProjects\AdvanceProgrammingProject\src\main\resources\com\example\advanceprogrammingproject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dayya\IdeaProjects\AdvanceProgrammingProject\src\main\resources\com\example\advanceprogrammingproject\Icons" />
+      <recent name="C:\Users\dayya\IdeaProjects\AdvanceProgrammingProject\src\main\resources\SurveyCreatorfxml\Icons2" />
+      <recent name="C:\Users\dayya\IdeaProjects\AdvanceProgrammingProject\src\main\resources\SurveyCreatorfxml" />
+      <recent name="C:\Users\dayya\IdeaProjects\AdvanceProgrammingProject\src\main\resources\com\example\advanceprogrammingproject" />
+      <recent name="C:\Users\dayya\IdeaProjects\AdvanceProgrammingProject\src\main\resources\ManageSurvey\IconsSurveyManagement" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.advanceprogrammingproject.Main" />
+      <module name="OpinioNebula" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.advanceprogrammingproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c56a282c-fe0d-4b27-9051-523cce40824d" name="Changes" comment="" />
+      <created>1698736883197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698736883197</updated>
+    </task>
+    <servers />
+  </component>
+</project>

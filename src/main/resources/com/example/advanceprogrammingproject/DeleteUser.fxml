@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="466.0" prefWidth="545.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.DeleteUserPage">
+   <children>
+      <Text fx:id="DeleteUserText" layoutX="231.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete User Page">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="DeleteUserIcon" fitHeight="44.0" fitWidth="50.0" layoutX="170.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/delete.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="DeleteUserLogo" fitHeight="104.0" fitWidth="136.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackButtonOnDeleteUser" layoutX="460.0" layoutY="21.0" mnemonicParsing="false" onAction="#BackButtonOnDeleteUser" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="FirstCheckBox" layoutX="420.0" layoutY="206.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SecondCheckBox" layoutX="420.0" layoutY="245.0" mnemonicParsing="false" />
+      <CheckBox fx:id="ThirdCheckBox" layoutX="420.0" layoutY="289.0" mnemonicParsing="false" />
+      <Rectangle fx:id="UsernameBox" arcHeight="5.0" arcWidth="5.0" fill="#ffc13b" height="172.0" layoutX="184.0" layoutY="191.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="StudentIDBox" arcHeight="5.0" arcWidth="5.0" fill="#ffc13b" height="172.0" layoutX="289.0" layoutY="191.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="HeaderBox" arcHeight="5.0" arcWidth="5.0" fill="#ffa21f" height="26.0" layoutX="184.0" layoutY="168.0" stroke="BLACK" strokeType="INSIDE" width="210.0" />
+      <Text layoutX="190.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text layoutX="300.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="StudentID" />
+      <Text fx:id="username1Text" layoutX="196.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ds_7" />
+      <Text fx:id="username2Text" layoutX="192.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neymar" />
+      <Text fx:id="username3Text" layoutX="192.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cristiano" />
+      <Text fx:id="studentID1Text" layoutX="306.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="007" />
+      <Text fx:id="studentID2Text" layoutX="310.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100" />
+      <Text fx:id="studentID3Text" layoutX="312.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="777" />
+      <Button fx:id="ConfirmButton" layoutX="256.0" layoutY="405.0" mnemonicParsing="false" onAction="#Confirm" style="-fx-background-color: #ffc13b;" text="Confirm">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

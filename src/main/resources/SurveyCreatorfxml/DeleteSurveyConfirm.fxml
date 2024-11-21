@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="467.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SurveyCreatorPage.DeleteSurveyPage">
+   <children>
+      <AnchorPane prefHeight="467.0" prefWidth="620.0" style="-fx-background-color: #f5f0e1;">
+         <children>
+            <ImageView fx:id="DeleteSurveyConfirmLogo" fitHeight="104.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../com/example/advanceprogrammingproject/Icons/opinionebula-yello.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="DeleteSurveyConfirmIcon" fitHeight="59.0" fitWidth="79.0" layoutX="281.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../com/example/advanceprogrammingproject/Icons/delete.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="DeleteSurveyConfirmText" layoutX="223.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete User Page">
+               <font>
+                  <Font name="Bookman Old Style" size="22.0" />
+               </font>
+            </Text>
+            <Button fx:id="HomeButtonOnDeleteSurveyConfirm" layoutX="272.0" layoutY="371.0" mnemonicParsing="false" onAction="#HomeButtonOnDeleteSurveyConfirm" style="-fx-background-color: #ffc13b;" text="Home">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <Text fx:id="UserSuccessfullyDeletedText2" layoutX="165.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Deleted Successfully" wrappingWidth="296.0615234375">
+               <font>
+                  <Font name="Bookman Old Style" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="DoneIcon" fitHeight="80.0" fitWidth="85.0" layoutX="273.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../com/example/advanceprogrammingproject/Icons/done.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

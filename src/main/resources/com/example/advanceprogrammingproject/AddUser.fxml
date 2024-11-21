@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="530.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.AddUserPage">
+   <children>
+      <Text fx:id="AddUserText" layoutX="265.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add User" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="AddUserIcon2" fitHeight="45.0" fitWidth="48.0" layoutX="209.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/add.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="NameText" layoutX="47.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="UsernameText" layoutX="47.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="StudentIDText" layoutX="47.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student_ID" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="EmailText" layoutX="47.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="PasswordText" layoutX="47.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NameField" layoutX="214.0" layoutY="158.0" prefHeight="30.0" prefWidth="224.0" />
+      <TextField fx:id="UsernameField" layoutX="214.0" layoutY="209.0" prefHeight="30.0" prefWidth="224.0" />
+      <TextField fx:id="EmailField" layoutX="214.0" layoutY="303.0" prefHeight="30.0" prefWidth="224.0" />
+      <TextField fx:id="StudentIDField" layoutX="214.0" layoutY="255.0" prefHeight="30.0" prefWidth="224.0" />
+      <PasswordField fx:id="PasswordField" layoutX="214.0" layoutY="350.0" />
+      <Button fx:id="BackButtonOnAddUser" layoutX="525.0" layoutY="14.0" mnemonicParsing="false" onAction="#BackButton" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <Button fx:id="RegisterButtonOnAddUser" layoutX="265.0" layoutY="467.0" mnemonicParsing="false" onAction="#RegisterButtonOnAddUser" style="-fx-background-color: #ffc13b;" text="Register">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <Label fx:id="WrongData" layoutX="232.0" layoutY="108.0" textFill="RED">
+         <font>
+            <Font name="Rockwell Nova" size="22.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="GenderBox" layoutX="214.0" layoutY="398.0" prefWidth="150.0" />
+      <Text fx:id="GenderText" layoutX="47.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="ViewUserPageLogo" fitHeight="106.0" fitWidth="144.0" layoutX="6.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

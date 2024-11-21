@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="619.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.AdminQuestionPage">
+   <children>
+      <ImageView fx:id="AdminQuestionPageLogo" fitHeight="132.0" fitWidth="149.0" layoutX="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="AdminQuestionPageIcon" fitHeight="88.0" fitWidth="76.0" layoutX="272.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/QuestionAnswer.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="NextButtonOnAdminQuestionPage" layoutX="269.0" layoutY="600.0" mnemonicParsing="false" onAction="#Next" style="-fx-background-color: #ffc13b;" text="Next">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButtonOnAdminQuestionPage" layoutX="538.0" layoutY="25.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle fx:id="Rectangle" arcHeight="5.0" arcWidth="5.0" fill="#ffc13b" height="294.0" layoutX="44.0" layoutY="266.0" stroke="BLACK" strokeType="INSIDE" width="527.0" />
+      <Text fx:id="Q1Text1" layoutX="53.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q) What Improvement would you suggest for enhancing">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="Q1Text2" layoutX="83.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="campus life at Taylor's University?">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="AnswerTextField" layoutX="83.0" layoutY="358.0" prefHeight="170.0" prefWidth="433.0" style="-fx-background-color: #ffaf3b;" />
+      <Text fx:id="QnAText" layoutX="47.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Explore and Engage: MCQs Await Your Insights!&quot;">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Label fx:id="WrongData" layoutX="136.0" layoutY="203.0" textFill="RED">
+         <font>
+            <Font name="Bodoni MT" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

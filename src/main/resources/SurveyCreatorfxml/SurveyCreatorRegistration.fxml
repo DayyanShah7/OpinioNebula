@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="506.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SurveyCreatorPage.SurveyCreatorRegistrationPage">
+   <children>
+      <Button fx:id="BackButton" layoutX="519.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="UserRegsitartionText" layoutX="240.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Registration">
+         <font>
+            <Font name="Bookman Old Style Italic" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="AddUserIcon" fitHeight="45.0" fitWidth="48.0" layoutX="187.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../com/example/advanceprogrammingproject/Icons/add.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="NameField" layoutX="224.0" layoutY="145.0" prefHeight="30.0" prefWidth="224.0" />
+      <TextField fx:id="UsernameField" layoutX="224.0" layoutY="197.0" prefHeight="30.0" prefWidth="224.0" />
+      <TextField fx:id="StudentIDField" layoutX="224.0" layoutY="252.0" prefHeight="30.0" prefWidth="224.0" />
+      <TextField fx:id="EmailField" layoutX="224.0" layoutY="308.0" prefHeight="30.0" prefWidth="224.0" />
+      <PasswordField fx:id="PasswordField" layoutX="224.0" layoutY="366.0" />
+      <ChoiceBox fx:id="GenderBox" layoutX="234.0" layoutY="423.0" prefWidth="150.0" />
+      <Text fx:id="NameText" layoutX="46.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="UsernameText" layoutX="46.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="StudentIDText" layoutX="46.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student_ID" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="EmailText" layoutX="46.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="PasswordText" layoutX="46.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="GenderText" layoutX="46.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" wrappingWidth="122.62890625">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="RegistrationButton" layoutX="495.0" layoutY="444.0" mnemonicParsing="false" onAction="#Register" style="-fx-background-color: #ffc13b;" text="Register">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="SurveyCreatorRegistrationPageLogo" fitHeight="106.0" fitWidth="144.0" layoutX="6.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../com/example/advanceprogrammingproject/Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="WrongData" layoutX="288.0" layoutY="102.0">
+         <font>
+            <Font name="Brush Script MT Italic" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

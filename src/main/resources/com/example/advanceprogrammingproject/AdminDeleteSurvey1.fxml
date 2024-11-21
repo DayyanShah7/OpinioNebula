@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.AdminDeleteSurveyPage">
+   <children>
+      <AnchorPane prefHeight="598.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;">
+         <children>
+            <ImageView fx:id="AdminDeleteSurvey1Logo" fitHeight="106.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/opinionebula-yello.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="AdminDeleteSurvey1Icon" fitHeight="74.0" fitWidth="67.0" layoutX="240.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../SurveyCreatorfxml/Icons2/delete.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="AdminDeleteSurveyOnAdminDeleteSurvey1Text" layoutX="189.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Survey" wrappingWidth="310.8232421875">
+               <font>
+                  <Font name="Bookman Old Style Bold Italic" size="25.0" />
+               </font>
+            </Text>
+            <Button fx:id="BackButtonOnAdminDeleteSurvey1" layoutX="519.0" layoutY="14.0" mnemonicParsing="false" onAction="#BackButtonOnAdminDeleteSurvey1" style="-fx-background-color: #ffc13b;" text="Back">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <Text fx:id="IDTextOnAdminDeleteSurvey1" layoutX="169.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="001">
+               <font>
+                  <Font name="Bookman Old Style Italic" size="22.0" />
+               </font>
+            </Text>
+            <Text fx:id="UserIDTextOnAdminDeleteSurvey1" layoutX="169.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ds7">
+               <font>
+                  <Font name="Bookman Old Style Italic" size="22.0" />
+               </font>
+            </Text>
+            <Button fx:id="DeleteButtonOnAdminDeleteSurvey1" layoutX="232.0" layoutY="511.0" mnemonicParsing="false" onAction="#DeleteButtonOnAdminDeleteSurvey1" style="-fx-background-color: #ffc13b;" text="Delete">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="UserLogoOnAdminDeleteSurvey1" fitHeight="37.0" fitWidth="37.0" layoutX="104.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../SurveyCreatorfxml/Icons2/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="OptionLogoOnAdminDeleteSurvey1" fitHeight="37.0" fitWidth="46.0" layoutX="104.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../SurveyCreatorfxml/Icons2/option.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="IDLogoOnAdminDeleteSurvey1" fitHeight="37.0" fitWidth="44.0" layoutX="104.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../SurveyCreatorfxml/Icons2/ID.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="WarningText" fill="RED" layoutX="21.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="( This survey will be permanently removed from the system)">
+               <font>
+                  <Font name="Rockwell Nova Bold Italic" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="QuestionAnswerTextOnAdminDeleteSurvey1" layoutX="163.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Short Question and Answers">
+               <font>
+                  <Font name="Bookman Old Style Italic" size="22.0" />
+               </font>
+            </Text>
+            <Text fx:id="DeleteText1OnAdminDeleteSurvey1" layoutX="151.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm the deletion of the">
+               <font>
+                  <Font name="Rockwell Nova Italic" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="DeleteText2OnAdminDeleteSurvey1" layoutX="151.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="selected Survey">
+               <font>
+                  <Font name="Rockwell Nova Italic" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

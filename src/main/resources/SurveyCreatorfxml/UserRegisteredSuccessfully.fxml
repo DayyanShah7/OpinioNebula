@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SurveyCreatorPage.UserRegisteredSuccessfullyPage">
+   <children>
+      <ImageView fx:id="UserRegisteredSuccessfullyLogo" fitHeight="106.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../com/example/advanceprogrammingproject/Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="UserText" layoutX="141.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Registered Succesfully">
+         <font>
+            <Font name="Bookman Old Style Italic" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="UserIcon" fitHeight="60.0" fitWidth="79.0" layoutX="277.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/user.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="HomeButton" layoutX="211.0" layoutY="324.0" mnemonicParsing="false" onAction="#Home" style="-fx-background-color: #ffc13b;" text="Home">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="DoneIcon" fitHeight="60.0" fitWidth="79.0" layoutX="271.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/Done.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="LoginButton" layoutX="307.0" layoutY="324.0" mnemonicParsing="false" onAction="#Login" style="-fx-background-color: #ffc13b;" text="Login">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

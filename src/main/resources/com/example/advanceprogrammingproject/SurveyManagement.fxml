@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.SurveyManagementPage">
+   <children>
+      <ImageView fx:id="AddIcon" fitHeight="37.0" fitWidth="37.0" layoutX="215.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="DeleteIcon" fitHeight="37.0" fitWidth="47.0" layoutX="215.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/delete.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ViewIcon" fitHeight="37.0" fitWidth="37.0" layoutX="209.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/view.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ViewSurveyButton" layoutX="267.0" layoutY="271.0" mnemonicParsing="false" onAction="#ViewSurvey" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: #ffc13b;" text="View Survey">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButtonOnDeleteUser2" layoutX="267.0" layoutY="325.0" mnemonicParsing="false" onAction="#DeleteSurvey" style="-fx-background-color: #ffc13b;" text="Delete Survey">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="AddSurveyButton" layoutX="267.0" layoutY="220.0" mnemonicParsing="false" onAction="#AddSurvey" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: #ffc13b;" text="Add Survey  ">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButtonOnSurveyManagement" layoutX="524.0" layoutY="8.0" mnemonicParsing="false" onAction="#BackButtonOnSurveyManagement" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="WhatText" layoutX="173.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What would you like to do?" wrappingWidth="298.8916015625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="SurveyManagementIcon" fitHeight="80.0" fitWidth="92.0" layoutX="260.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/SurveyManagment.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SurveyManagementLogo" fitHeight="104.0" fitWidth="136.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="SurveyManagementText" layoutX="180.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Survey Managment Page" wrappingWidth="285.8916015625">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

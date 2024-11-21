@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.AdminLoginPage">
+   <children>
+      <Button fx:id="ForgotPasswordButtonOnAdminPage" layoutX="340.0" layoutY="331.0" mnemonicParsing="false" onAction="#AdminForgotPassword" prefHeight="39.0" prefWidth="205.0" style="-fx-background-color: #ffc13b;" text="Forgot Password">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <Button fx:id="LoginButtonOnAdminPage" layoutX="115.0" layoutY="331.0" mnemonicParsing="false" onAction="#AdminLoginButton" prefHeight="39.0" prefWidth="196.0" style="-fx-background-color: #ffc13b;" text="Login">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <Button fx:id="BackButtonOnAdminPage" layoutX="525.0" layoutY="13.0" mnemonicParsing="false" onAction="#BackOnAdminPage" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font></Button>
+      <ImageView fx:id="AdminPageLogo" fitHeight="111.0" fitWidth="147.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="AdminLogo" fitHeight="86.0" fitWidth="85.0" layoutX="177.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/Admin2.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="AdminText" layoutX="268.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administartor Login">
+         <font>
+            <Font name="Bookman Old Style" size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="UsernameText" layoutX="197.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text fx:id="PasswordText" layoutX="200.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <ImageView fx:id="UsernameLogo" fitHeight="45.0" fitWidth="36.0" layoutX="153.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="PasswordLogo" fitHeight="45.0" fitWidth="36.0" layoutX="159.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/password.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="AdminPasswordfield" layoutX="288.0" layoutY="227.0" />
+      <TextField fx:id="AdminUsernameField" layoutX="288.0" layoutY="168.0" />
+      <Label fx:id="WrongData" layoutX="300.0" layoutY="132.0" textFill="RED" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.MissionSuccessfullPage">
+   <children>
+      <AnchorPane layoutX="3.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;">
+         <children>
+            <Text fx:id="MissionText" layoutX="191.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mission Successfull.">
+               <font>
+                  <Font name="Bookman Old Style" size="22.0" />
+               </font>
+            </Text>
+            <Button fx:id="HomeButton" layoutX="262.0" layoutY="321.0" mnemonicParsing="false" onAction="#Home" style="-fx-background-color: #ffc13b;" text="Home">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <Text fx:id="SurveyAddedText" layoutX="169.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Survey added to User ds7">
+               <font>
+                  <Font name="Bookman Old Style" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="MissionLogo" fitHeight="106.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/opinionebula-yello.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

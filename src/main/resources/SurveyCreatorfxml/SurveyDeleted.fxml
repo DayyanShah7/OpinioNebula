@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SurveyCreatorPage.SurveyDeletedPage">
+   <children>
+      <AnchorPane prefHeight="574.0" prefWidth="602.0" style="-fx-background-color: #f5f0e1;">
+         <children>
+            <ImageView fx:id="SurveyDeletedLogo" fitHeight="106.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../com/example/advanceprogrammingproject/Icons/opinionebula-yello.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="SurveyDeletedIcon" fitHeight="74.0" fitWidth="67.0" layoutX="252.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons2/delete.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="SurveyDeletedText" layoutX="194.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Survey" wrappingWidth="310.8232421875">
+               <font>
+                  <Font name="Bookman Old Style Italic" size="25.0" />
+               </font>
+            </Text>
+            <Button fx:id="BackButton" layoutX="514.0" layoutY="18.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <ListView fx:id="MainList" layoutX="90.0" layoutY="250.0" prefHeight="200.0" prefWidth="391.0" style="-fx-background-color: #ffc13b;" />
+            <ListView fx:id="SurveyIDList" layoutX="89.0" layoutY="221.0" prefHeight="29.0" prefWidth="124.0" style="-fx-background-color: #f5ab49;" />
+            <ListView fx:id="SurveyCreatedByList" layoutX="205.0" layoutY="221.0" prefHeight="29.0" prefWidth="144.0" style="-fx-background-color: #f5ab49;" />
+            <Text fx:id="SurveyIDText" layoutX="106.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SurveyID" />
+            <Text fx:id="SurveyCreatedByText" layoutX="201.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Survey Created By" />
+            <CheckBox fx:id="DeleteCheckBox" layoutX="487.0" layoutY="258.0" mnemonicParsing="false" />
+            <Button fx:id="DeleteButton" layoutX="259.0" layoutY="489.0" mnemonicParsing="false" onAction="#Delete" style="-fx-background-color: #ffc13b;" text="Delete">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <ListView fx:id="SurveyTypeList" layoutX="349.0" layoutY="221.0" prefHeight="29.0" prefWidth="132.0" style="-fx-background-color: #f5ab49;" />
+            <Text fx:id="SurveyTypeText" layoutX="367.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Survey Type" />
+            <Label fx:id="WrongData" layoutX="238.0" layoutY="177.0" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

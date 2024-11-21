@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="612.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SurveyCreatorPage.RatingPage">
+   <children>
+      <ImageView fx:id="RatingLogo" fitHeight="106.0" fitWidth="144.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../com/example/advanceprogrammingproject/Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RatingIcon" fitHeight="112.0" fitWidth="133.0" layoutX="234.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/Rate.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="RatingText1" layoutX="148.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Channel your inner critich:" wrappingWidth="310.8232421875">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="SubmitButton" layoutX="267.0" layoutY="548.0" mnemonicParsing="false" onAction="#Submit" style="-fx-background-color: #ffc13b;" text="Next">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="519.0" layoutY="15.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="RatingText2" layoutX="95.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate these on the 5 Star Bliss-O-Meter" wrappingWidth="482.8232421875">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Q1TextField" layoutX="63.0" layoutY="261.0" prefHeight="112.0" prefWidth="483.0" style="-fx-background-color: #ffc13b;" />
+      <Text fx:id="RatingQuestion1" layoutX="81.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q1) How would you rate Taylor's University ?">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font></Text>
+      <Slider fx:id="Q1Slider" layoutX="230.0" layoutY="304.0" max="5" min="1" snapToTicks="" value="3">
+         <majorTickUnit>1.0</majorTickUnit>
+         <minorTickCount>0</minorTickCount>
+         <showTickMarks>true</showTickMarks>
+         <showTickLabels>true</showTickLabels>
+      </Slider>
+      <Text fx:id="CorrectAnswerText" fill="RED" layoutX="205.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(The correct answer is -1)">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font></Text>
+      <TextField fx:id="Q1TextField1" layoutX="63.0" layoutY="393.0" prefHeight="112.0" prefWidth="483.0" style="-fx-background-color: #ffc13b;" />
+      <Text fx:id="RatingQuestion2" layoutX="71.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q2)  How satisfied are you with food avalible on campus??">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font></Text>
+      <Slider fx:id="Q2Slider" layoutX="233.0" layoutY="435.0" majorTickUnit="1.0" max="5" min="1" minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="" value="3" />
+   </children>
+</AnchorPane>

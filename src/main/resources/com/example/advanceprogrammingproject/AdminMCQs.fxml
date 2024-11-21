@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="582.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.AdminMCQsPage">
+   <children>
+      <ImageView fx:id="AdminMCQsLogo" fitHeight="106.0" fitWidth="144.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="AdminMCQIcon" fitHeight="75.0" fitWidth="83.0" layoutX="268.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../SurveyCreatorfxml/Icons2/MCQs.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="AdminMCQText" layoutX="42.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Explore and Engage: MCQs Await Your Insights!&quot;">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="AddButtonOnAdminMCQPage" layoutX="272.0" layoutY="531.0" mnemonicParsing="false" onAction="#Add" style="-fx-background-color: #ffc13b;" text="Add">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButtonOnAdminMCQ" layoutX="520.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova Italic" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc13b" height="123.0" layoutX="37.0" layoutY="251.0" stroke="BLACK" strokeType="INSIDE" width="527.0" />
+      <Text fx:id="Q1Text" layoutX="56.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q1) Have you seen the Ducks at Taylor's Lake?">
+         <font>
+            <Font name="Century Schoolbook" size="18.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="YesOptionQ1" layoutX="86.0" layoutY="299.0" mnemonicParsing="false" text="Yes" />
+      <CheckBox fx:id="NoOptionQ1" layoutX="87.0" layoutY="334.0" mnemonicParsing="false" text="No" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc13b" height="136.0" layoutX="37.0" layoutY="379.0" stroke="BLACK" strokeType="INSIDE" width="527.0" />
+      <Text fx:id="Q2Text" layoutX="56.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q2) Do you find the available technologies resources ">
+         <font>
+            <Font name="Century Schoolbook" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="Q2Text2" layoutX="87.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sufficient for you?">
+         <font>
+            <Font name="Century Schoolbook" size="18.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="YesOptionQ2" layoutX="98.0" layoutY="447.0" mnemonicParsing="false" text="Yes" />
+      <CheckBox fx:id="NoOptionQ2" layoutX="99.0" layoutY="478.0" mnemonicParsing="false" text="No" />
+      <Label fx:id="WrongData" layoutX="125.0" layoutY="201.0" textFill="#fc0505">
+         <font>
+            <Font name="Brush Script MT Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

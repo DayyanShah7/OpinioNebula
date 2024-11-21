@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SurveyCreatorPage.AfterSurveyCreatorLoginPage">
+   <children>
+      <ImageView fx:id="AfterSurveyCreatorRegistrationLogo" fitHeight="106.0" fitWidth="144.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../com/example/advanceprogrammingproject/Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="WelcomeText" layoutX="234.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome User">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="UserIcon" fitHeight="59.0" fitWidth="62.0" layoutX="14.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/user.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="DeleteSurveyButton" layoutX="248.0" layoutY="320.0" mnemonicParsing="false" onAction="#Delete" style="-fx-background-color: #ffc13b;" text="Delete Survey">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ViewSurveyButton" layoutX="248.0" layoutY="254.0" mnemonicParsing="false" onAction="#View" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: #ffc13b;" text="View Survey">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="AddSurveyButton" layoutX="248.0" layoutY="182.0" mnemonicParsing="false" onAction="#Add" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: #ffc13b;" text="Add Survey">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="509.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="WhatText" layoutX="171.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What would you like to do?">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="AddIcon" fitHeight="43.0" fitWidth="37.0" layoutX="197.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="DeleteIcon" fitHeight="43.0" fitWidth="37.0" layoutX="197.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/delete.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ViewIcon" fitHeight="43.0" fitWidth="37.0" layoutX="197.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/view.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="DeleteButton2" layoutX="388.0" layoutY="320.0" mnemonicParsing="false" onAction="#Delete2" style="-fx-background-color: #ffc13b;">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="554.0" prefWidth="549.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.AdminViewSurveyPage">
+   <children>
+      <AnchorPane prefHeight="554.0" prefWidth="546.0" style="-fx-background-color: #f5f0e1;">
+         <children>
+            <ImageView fx:id="ViewSurveyLogo" fitHeight="106.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/opinionebula-yello.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ViewSurveyIcon" fitHeight="74.0" fitWidth="67.0" layoutX="243.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../SurveyCreatorfxml/Icons2/view.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="ViewSurveyText" layoutX="214.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View Survey" wrappingWidth="310.8232421875">
+               <font>
+                  <Font name="Bookman Old Style Italic" size="25.0" />
+               </font>
+            </Text>
+            <Button fx:id="BackButton" layoutX="453.0" layoutY="16.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <ListView fx:id="MainList" layoutX="90.0" layoutY="250.0" prefHeight="200.0" prefWidth="391.0" style="-fx-background-color: #ffc13b;" />
+            <ListView fx:id="SurveyIDList" layoutX="89.0" layoutY="221.0" prefHeight="29.0" prefWidth="124.0" style="-fx-background-color: #f5ab49;" />
+            <ListView fx:id="SurveyCreatedByList" layoutX="205.0" layoutY="221.0" prefHeight="29.0" prefWidth="144.0" style="-fx-background-color: #f5ab49;" />
+            <Text fx:id="SurveyIDText" layoutX="106.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SurveyID" />
+            <Text fx:id="SurveyCreatedByText" layoutX="201.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Survey Created By" />
+            <Text fx:id="IDValueText" layoutX="126.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="001" />
+            <Text fx:id="ds7Text" layoutX="254.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ds7" />
+            <CheckBox fx:id="ViewCheckBox" layoutX="487.0" layoutY="258.0" mnemonicParsing="false" />
+            <Button fx:id="ViewButton" layoutX="232.0" layoutY="488.0" mnemonicParsing="false" onAction="#View" style="-fx-background-color: #ffc13b;" text="View">
+               <font>
+                  <Font name="Rockwell Nova" size="18.0" />
+               </font>
+            </Button>
+            <ListView fx:id="SurveyTypeList" layoutX="349.0" layoutY="221.0" prefHeight="29.0" prefWidth="132.0" style="-fx-background-color: #f5ab49;" />
+            <Text fx:id="SurveyTypeText" layoutX="367.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Survey Type" />
+            <Text fx:id="QnAText" layoutX="378.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QnA" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

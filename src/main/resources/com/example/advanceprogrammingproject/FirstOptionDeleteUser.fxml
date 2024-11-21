@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="437.0" prefWidth="600.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advanceprogrammingproject.DeleteUserPage">
+   <children>
+      <ImageView fx:id="FirstOptionDeleteUserLogo" fitHeight="104.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="FirstOptionDeleteIcon" fitHeight="59.0" fitWidth="79.0" layoutX="271.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/delete.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="DeleteUserTextOnFirstOptionDeleteUser" layoutX="223.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete User Page">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="ConfirmButtonOnFirstOptionDeleteUser" layoutX="252.0" layoutY="370.0" mnemonicParsing="false" onAction="#ConfirmOnFirstOptionDeleteUser" style="-fx-background-color: #ffc13b;" text="Confirm">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButtonOnFirstOptionDeleteUser" layoutX="519.0" layoutY="14.0" mnemonicParsing="false" onAction="#BackOnFirstOptionDeleteUser" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="DeleteText1OnFirstOptionDeleteUser" layoutX="81.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The User Dayyan with StudentID # 007">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="DeleteText2OnFirstOptionDeleteUser" layoutX="81.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and Username ds7 will be permanently">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="DeleteText3OnFirstOptionDeleteUser" layoutX="81.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="removed from the system.">
+         <font>
+            <Font name="Bookman Old Style" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

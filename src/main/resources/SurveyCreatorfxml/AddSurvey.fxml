@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="436.0" prefWidth="591.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SurveyCreatorPage.AddSurveyPage">
+   <children>
+      <ImageView fx:id="AddSurveyIcon" fitHeight="59.0" fitWidth="62.0" layoutX="265.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons2/option.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="PleaseText" layoutX="118.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please choose one question type ">
+         <font>
+            <Font name="Bookman Old Style Italic" size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="ContinueButton" layoutX="242.0" layoutY="363.0" mnemonicParsing="false" onAction="#Continue" style="-fx-background-color: #ffc13b;" text="Continue">
+         <font>
+            <Font name="Rockwell Nova" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="500.0" layoutY="15.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ffc13b;" text="Back">
+         <font>
+            <Font name="Rockwell Nova Italic" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="AddSurveyLogo" fitHeight="106.0" fitWidth="144.0" layoutX="7.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../com/example/advanceprogrammingproject/Icons/opinionebula-yello.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="WelcomeUserText" layoutX="219.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome User">
+         <font>
+            <Font name="Bookman Old Style Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="ToCreateText" layoutX="118.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to create a survey">
+         <font>
+            <Font name="Bookman Old Style Italic" size="25.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="ComboBox" layoutX="179.0" layoutY="259.0" prefHeight="39.0" prefWidth="251.0" promptText="Type of Survey" style="-fx-background-color: #ffc13b;" />
+   </children>
+</AnchorPane>
